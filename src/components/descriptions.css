@@ -33,3 +33,25 @@
         grid-template-columns:1fr 1fr;
     }
 }
+@media screen and (max-width:500px){
+
+    .section__descriptions{
+        grid-template-columns:1fr 1fr;
+    }
+    .section__inputs>button{
+        padding:10px 40px;
+        /* border-radius:0.4rem; */
+        font-size:15px;
+        /* font-weight:500;
+        background-color:white; */
+      }
+      .section__inputs> input{
+        /* border:0.4px solid white;
+        border-radius:0.4rem;
+        background-color: transparent;
+        color:white;
+        padding:0.5rem; */
+        font-size:15px;
+        /* font-weight:200; */
+      }
+}
